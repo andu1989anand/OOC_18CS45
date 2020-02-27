@@ -1,5 +1,5 @@
 #include<stdio.h>
-//simple program to display
+//simple program to swap two numbers
 void swap(int *x, int *y)
 {
 int temp;
