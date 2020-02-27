@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//simple program to display
 void show(char a[])
 {
 printf("%s\n",a);
