@@ -6,9 +6,11 @@ int main()
 
     int p=20;
     int &x=p;
-    cout<<endl<<p<<endl<<x;
+    int y=p;
+    cout<<endl<<p<<endl<<x<<endl<<y;
     x++;
-    cout<<endl<<p<<endl<<x;
+    cout<<endl<<p<<endl<<x<<endl<<y;
+    cout<<endl<<&p<<endl<<&x<<endl<<&y;
 
 return 0;
 }
